@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vocal notes</title>
+</head>
+<body>
+    <form action="https://www.instagram.com/" target="_blank">
+        <input name="query" placeholder="Search" id="query" autofocus>
+        <input type="button" value="Speak" onclick="recognition.start()">  
+    </form>
+    <form action="https://www.google.com/" target="_gog">
+        <input name="query" placeholder="Search" id="query" autofocus>
+        <input type="button" value="Speak" onclick="recognition.start()">  
+    </form>
+    
+    <h1>Vocal Notes</h1>
+    <section class="warm"></section>
+    <select name="voice" id="voices"disabled>       
+    </select><br><br>
+
+    <textarea disabled></textarea>
+    <button id="submit" onclick="speaker.speak();" disabled>Text to 
+    speech</button>
+    
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="speacker.js"></script>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "my_first_electro_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^10.1.5",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "vincex89",
+  "license": "MIT"
+}
